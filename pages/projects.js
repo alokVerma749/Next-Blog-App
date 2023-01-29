@@ -2,57 +2,284 @@ import React from 'react'
 
 const projects = () => {
     return (
-        <section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
-            <div className="container p-6 mx-auto space-y-8">
-                <div className="space-y-2 text-center">
-                    <h2 className="text-3xl font-bold">UI Projects</h2>
-                    <p className="font-serif text-sm dark:text-gray-400">Click on project card to see the deploayed project.</p>
+        <section>
+            <div className="bg-indigo-600">
+                <div className="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 text-gray-900">
+                    <h1 className="text-5xl font-bold leading-none sm:text-6xl xl:max-w-3xl text-gray-50">Provident blanditiis cum exercitationem</h1>
+                    <p className="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl text-gray-50">Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab amet vero eaque explicabo!</p>
+                    <div className="flex flex-wrap justify-center">
+                        <button type="button" className="px-8 py-3 m-2 text-lg font-semibold rounded bg-gray-100 text-gray-900">Get started</button>
+                        <button type="button" className="px-8 py-3 m-2 text-lg border rounded border-gray-300 text-gray-50">Learn more</button>
+                    </div>
                 </div>
-                <div className="flex flex-col max-w-lg p-6 space-y-6 overflow-hidden rounded-lg shadow-md dark:bg-gray-900 dark:text-gray-100">
-                    <div className="flex space-x-4">
-                        <img alt="" src="https://source.unsplash.com/100x100/?portrait" className="object-cover w-12 h-12 rounded-full shadow dark:bg-gray-500" />
-                        <div className="flex flex-col space-y-1">
-                            <a rel="noopener noreferrer" href="#" className="text-sm font-semibold">Alok Verma</a>
-                            <span className="text-xs dark:text-gray-400">4 hours ago</span>
+            </div>
+            <div className="flex items-center -mx-4 overflow-x-auto overflow-y-hidden sm:justify-center flex-nowrap bg-gray-100 text-gray-800">
+                <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                        <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path>
+                    </svg>
+                    <span>Architecto</span>
+                </a>
+                <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border border-b-0 rounded-t-lg border-gray-600 text-gray-900">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
+                    <span>Corrupti</span>
+                </a>
+                <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                        <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <span>Excepturi</span>
+                </a>
+                <a rel="noopener noreferrer" href="#" className="flex items-center flex-shrink-0 px-5 py-3 space-x-2 border-b border-gray-600 text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-4 h-4">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                    </svg>
+                    <span>Consectetur</span>
+                </a>
+            </div>
+            <div className="container p-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 grid-flow-row mx-auto">
+
+                <div className="max-w-lg p-4 shadow-md bg-gray-50 text-gray-800">
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 bg-gray-500" />
+                            <div className="flex items-center text-xs">
+                                <span>6 min ago</span>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <a rel="noopener noreferrer" href="#" className="block">
+                                <h3 className="text-xl font-semibold text-indigo-600">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
+                            </a>
+                            <p className="leading-snug text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
+                            <button className='border border-blue-600 p-2 rounded-xl font-bold text-blue-600 hover:text-blue-400 duration-200'>Preview</button>
                         </div>
                     </div>
-                    <div>
-                        <img src="https://source.unsplash.com/random/100x100/?5" alt="" className="object-cover w-full mb-4 h-60 sm:h-96 dark:bg-gray-500" />
-                        <h2 className="mb-1 text-xl font-semibold">Nam cu platonem posidonium sanctus debitis te</h2>
-                        <p className="text-sm dark:text-gray-400">Eu qualisque aliquando mel, id lorem detraxit nec, ad elit minimum pri. Illum ipsum detracto ne cum. Mundi nemore te ius, vim ad illud atqui apeirian...</p>
-                    </div>
-                    <div className="flex flex-wrap justify-between">
-                        <div className="space-x-2">
-                            <button aria-label="Share this post" type="button" className="p-2 text-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 fill-current dark:text-violet-400">
-                                    <path d="M404,344a75.9,75.9,0,0,0-60.208,29.7L179.869,280.664a75.693,75.693,0,0,0,0-49.328L343.792,138.3a75.937,75.937,0,1,0-13.776-28.976L163.3,203.946a76,76,0,1,0,0,104.108l166.717,94.623A75.991,75.991,0,1,0,404,344Zm0-296a44,44,0,1,1-44,44A44.049,44.049,0,0,1,404,48ZM108,300a44,44,0,1,1,44-44A44.049,44.049,0,0,1,108,300ZM404,464a44,44,0,1,1,44-44A44.049,44.049,0,0,1,404,464Z"></path>
-                                </svg>
-                            </button>
-                            <button aria-label="Bookmark this post" type="button" className="p-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-4 h-4 fill-current dark:text-violet-400">
-                                    <path d="M424,496H388.75L256.008,381.19,123.467,496H88V16H424ZM120,48V456.667l135.992-117.8L392,456.5V48Z"></path>
-                                </svg>
-                            </button>
+                </div>
+                <div className="max-w-lg p-4 shadow-md bg-gray-50 text-gray-800">
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 bg-gray-500" />
+                            <div className="flex items-center text-xs">
+                                <span>6 min ago</span>
+                            </div>
                         </div>
-                        <div className="flex space-x-2 text-sm dark:text-gray-400">
-                            <button type="button" className="flex items-center p-1 space-x-1.5">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Number of comments" className="w-4 h-4 fill-current dark:text-violet-400">
-                                    <path d="M448.205,392.507c30.519-27.2,47.8-63.455,47.8-101.078,0-39.984-18.718-77.378-52.707-105.3C410.218,158.963,366.432,144,320,144s-90.218,14.963-123.293,42.131C162.718,214.051,144,251.445,144,291.429s18.718,77.378,52.707,105.3c33.075,27.168,76.861,42.13,123.293,42.13,6.187,0,12.412-.273,18.585-.816l10.546,9.141A199.849,199.849,0,0,0,480,496h16V461.943l-4.686-4.685A199.17,199.17,0,0,1,448.205,392.507ZM370.089,423l-21.161-18.341-7.056.865A180.275,180.275,0,0,1,320,406.857c-79.4,0-144-51.781-144-115.428S240.6,176,320,176s144,51.781,144,115.429c0,31.71-15.82,61.314-44.546,83.358l-9.215,7.071,4.252,12.035a231.287,231.287,0,0,0,37.882,67.817A167.839,167.839,0,0,1,370.089,423Z"></path>
-                                    <path d="M60.185,317.476a220.491,220.491,0,0,0,34.808-63.023l4.22-11.975-9.207-7.066C62.918,214.626,48,186.728,48,156.857,48,96.833,109.009,48,184,48c55.168,0,102.767,26.43,124.077,64.3,3.957-.192,7.931-.3,11.923-.3q12.027,0,23.834,1.167c-8.235-21.335-22.537-40.811-42.2-56.961C270.072,30.279,228.3,16,184,16S97.928,30.279,66.364,56.206C33.886,82.885,16,118.63,16,156.857c0,35.8,16.352,70.295,45.25,96.243a188.4,188.4,0,0,1-40.563,60.729L16,318.515V352H32a190.643,190.643,0,0,0,85.231-20.125,157.3,157.3,0,0,1-5.071-33.645A158.729,158.729,0,0,1,60.185,317.476Z"></path>
-                                </svg>
-                                <span>30</span>
-                            </button>
-                            <button type="button" className="flex items-center p-1 space-x-1.5">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" aria-label="Number of likes" className="w-4 h-4 fill-current dark:text-violet-400">
-                                    <path d="M126.638,202.672H51.986a24.692,24.692,0,0,0-24.242,19.434,487.088,487.088,0,0,0-1.466,206.535l1.5,7.189a24.94,24.94,0,0,0,24.318,19.78h74.547a24.866,24.866,0,0,0,24.837-24.838V227.509A24.865,24.865,0,0,0,126.638,202.672ZM119.475,423.61H57.916l-.309-1.487a455.085,455.085,0,0,1,.158-187.451h61.71Z"></path>
-                                    <path d="M494.459,277.284l-22.09-58.906a24.315,24.315,0,0,0-22.662-15.706H332V173.137l9.573-21.2A88.117,88.117,0,0,0,296.772,35.025a24.3,24.3,0,0,0-31.767,12.1L184.693,222.937V248h23.731L290.7,67.882a56.141,56.141,0,0,1,21.711,70.885l-10.991,24.341L300,169.692v48.98l16,16H444.3L464,287.2v9.272L396.012,415.962H271.07l-86.377-50.67v37.1L256.7,444.633a24.222,24.222,0,0,0,12.25,3.329h131.6a24.246,24.246,0,0,0,21.035-12.234L492.835,310.5A24.26,24.26,0,0,0,496,298.531V285.783A24.144,24.144,0,0,0,494.459,277.284Z"></path>
-                                </svg>
-                                <span>283</span>
-                            </button>
+                        <div className="space-y-3">
+                            <a rel="noopener noreferrer" href="#" className="block">
+                                <h3 className="text-xl font-semibold text-indigo-600">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
+                            </a>
+                            <p className="leading-snug text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
+                            <button className='border border-blue-600 p-2 rounded-xl font-bold text-blue-600 hover:text-blue-400 duration-200'>Preview</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="max-w-lg p-4 shadow-md bg-gray-50 text-gray-800">
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 bg-gray-500" />
+                            <div className="flex items-center text-xs">
+                                <span>6 min ago</span>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <a rel="noopener noreferrer" href="#" className="block">
+                                <h3 className="text-xl font-semibold text-indigo-600">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
+                            </a>
+                            <p className="leading-snug text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
+                            <button className='border border-blue-600 p-2 rounded-xl font-bold text-blue-600 hover:text-blue-400 duration-200'>Preview</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="max-w-lg p-4 shadow-md bg-gray-50 text-gray-800">
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 bg-gray-500" />
+                            <div className="flex items-center text-xs">
+                                <span>6 min ago</span>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <a rel="noopener noreferrer" href="#" className="block">
+                                <h3 className="text-xl font-semibold text-indigo-600">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
+                            </a>
+                            <p className="leading-snug text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
+                            <button className='border border-blue-600 p-2 rounded-xl font-bold text-blue-600 hover:text-blue-400 duration-200'>Preview</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="max-w-lg p-4 shadow-md bg-gray-50 text-gray-800">
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 bg-gray-500" />
+                            <div className="flex items-center text-xs">
+                                <span>6 min ago</span>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <a rel="noopener noreferrer" href="#" className="block">
+                                <h3 className="text-xl font-semibold text-indigo-600">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
+                            </a>
+                            <p className="leading-snug text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
+                            <button className='border border-blue-600 p-2 rounded-xl font-bold text-blue-600 hover:text-blue-400 duration-200'>Preview</button>
+                        </div>
+                    </div>
+                </div>
+                <div className="max-w-lg p-4 shadow-md bg-gray-50 text-gray-800">
+                    <div className="space-y-4">
+                        <div className="space-y-2">
+                            <img src="https://source.unsplash.com/random/480x360/?4" alt="" className="block object-cover object-center w-full rounded-md h-72 bg-gray-500" />
+                            <div className="flex items-center text-xs">
+                                <span>6 min ago</span>
+                            </div>
+                        </div>
+                        <div className="space-y-3">
+                            <a rel="noopener noreferrer" href="#" className="block">
+                                <h3 className="text-xl font-semibold text-indigo-600">Facere ipsa nulla corrupti praesentium pariatur architecto</h3>
+                            </a>
+                            <p className="leading-snug text-gray-600">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat, excepturi.</p>
+                            <button className='border border-blue-600 p-2 rounded-xl font-bold text-blue-600 hover:text-blue-400 duration-200'>Preview</button>
                         </div>
                     </div>
                 </div>
             </div>
+            <section className="my-8 bg-gray-100 text-gray-800">
+                <div className="container flex flex-col items-center mx-auto mb-12 md:p-10 md:px-12">
+                    <h1 className="p-4 text-4xl font-semibold leading-none text-center">What our customers are saying about us</h1>
+                </div>
+                <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
+                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+                        <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
+                            <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-indigo-600">
+                                    <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+                                    <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                                </svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-indigo-600">
+                                    <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+                                    <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                                </svg>
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-indigo-600 text-gray-50">
+                            <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+                            <p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
+                            <p className="text-sm uppercase">Aliquam illum</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+                        <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
+                            <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-indigo-600">
+                                    <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+                                    <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                                </svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-indigo-600">
+                                    <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+                                    <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                                </svg>
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-indigo-600 text-gray-50">
+                            <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+                            <p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
+                            <p className="text-sm uppercase">Aliquam illum</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+                        <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
+                            <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-indigo-600">
+                                    <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+                                    <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                                </svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-indigo-600">
+                                    <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+                                    <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                                </svg>
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-indigo-600 text-gray-50">
+                            <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+                            <p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
+                            <p className="text-sm uppercase">Aliquam illum</p>
+                        </div>
+                    </div>
+                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
+                        <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 bg-gray-50">
+                            <p className="relative px-6 py-1 text-lg italic text-center text-gray-800">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 text-indigo-600">
+                                    <path d="M232,246.857V16H16V416H54.4ZM48,48H200V233.143L48,377.905Z"></path>
+                                    <path d="M280,416h38.4L496,246.857V16H280ZM312,48H464V233.143L312,377.905Z"></path>
+                                </svg>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus quibusdam, eligendi exercitationem molestias possimus facere.
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="absolute right-0 w-8 h-8 text-indigo-600">
+                                    <path d="M280,185.143V416H496V16H457.6ZM464,384H312V198.857L464,54.1Z"></path>
+                                    <path d="M232,16H193.6L16,185.143V416H232ZM200,384H48V198.857L200,54.1Z"></path>
+                                </svg>
+                            </p>
+                        </div>
+                        <div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-indigo-600 text-gray-50">
+                            <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full bg-gray-500 bg-gray-300" />
+                            <p className="text-xl font-semibold leading-tight">Distinctio Animi</p>
+                            <p className="text-sm uppercase">Aliquam illum</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* FAQ's */}
+            <section className="bg-gray-100 text-gray-800">
+                <div className="container flex flex-col justify-center p-4 mx-auto md:p-8">
+                    <p className="p-2 text-sm font-medium tracking-wider text-center uppercase">How it works</p>
+                    <h2 className="mb-12 text-4xl font-bold leading-none text-center sm:text-5xl">Frequently Asked Questions</h2>
+                    <div className="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-300">
+                        <details>
+                            <summary className="py-2 outline-none cursor-pointer focus:underline">Optio maiores eligendi molestiae totam dolores similique?</summary>
+                            <div className="px-4 pb-4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde neque in fugiat magni, quas animi enim veritatis deleniti ex. Impedit.</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary className="py-2 outline-none cursor-pointer focus:underline">Modi dolorem veritatis culpa quos consequuntur beatae itaque excepturi perspiciatis?</summary>
+                            <div className="px-4 pb-4">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aspernatur quae, eos explicabo odit minima libero veniam similique quibusdam doloribus facilis ipsa accusantium vel maiores corrupti! Libero voluptate a doloribus?</p>
+                            </div>
+                        </details>
+                        <details>
+                            <summary className="py-2 outline-none cursor-pointer focus:underline">Magni reprehenderit possimus debitis?</summary>
+                            <div className="px-4 pb-4 space-y-2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut voluptates aspernatur dolores in consequatur doloremque inventore reprehenderit, consequuntur perspiciatis architecto.</p>
+                                <p>Sed consectetur quod tenetur! Voluptatibus culpa incidunt veritatis velit quasi cupiditate unde eaque! Iure, voluptatibus autem eaque unde possimus quae.</p>
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </section>
+
+            {/* Contact Us */}
+            <section className="p-6 text-gray-800">
+                <form novalidate="" className="container w-full max-w-xl p-8 mx-auto space-y-6 rounded-md shadow bg-gray-50 ng-untouched ng-pristine ng-valid">
+                    <h2 className="w-full text-3xl font-bold leading-tight">Contact us</h2>
+                    <div>
+                        <label for="name" className="block mb-1 ml-1">Name</label>
+                        <input id="name" type="text" placeholder="Your name" required="" className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-indigo-600 bg-gray-100" />
+                    </div>
+                    <div>
+                        <label for="email" className="block mb-1 ml-1">Email</label>
+                        <input id="email" type="email" placeholder="Your email" required="" className="block w-full p-2 rounded focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-indigo-600 bg-gray-100" />
+                    </div>
+                    <div>
+                        <label for="message" className="block mb-1 ml-1">Message</label>
+                        <textarea id="message" type="text" placeholder="Message..." className="block w-full p-2 rounded autoexpand focus:outline-none focus:ring focus:ring-opacity-25 focus:ring-indigo-600 bg-gray-100"></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" className="w-full px-4 py-2 font-bold rounded shadow focus:outline-none focus:ring hover:ring focus:ring-opacity-50 bg-indigo-600 focus:ring-indigo-600 hover:ring-indigo-600 text-gray-50">Send</button>
+                    </div>
+                </form>
+            </section>
         </section>
     )
 }
