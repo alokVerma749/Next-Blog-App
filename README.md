@@ -1,40 +1,45 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+![GitHub repo size](https://img.shields.io/github/repo-size/alokVerma749/Next-Blog-App)
 
-## Getting Started
+# What is Next-Blog-App?
 
-First, run the development server:
+Next-Blog-App is the Open Source codebase for the web app code-hostel. A platform where admin can publish blogs and can also show their work on the platform, showcase their content in order to accelerate their career.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## Tech Stack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next-Blog-App was built using the following technologies:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- [Next.js](https://nextjs.org/) - a framework for building server-rendered React applications
+- [MongoDB](https://www.mongodb.com/) - a NoSQL database
+- [Tailwind CSS](https://tailwindcss.com/) - a utility-first CSS framework      
+ 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+#### Prerequisites
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Before contributing or adding a new feature, please make sure you have already installed the following tools:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [NodeJs](https://nodejs.org/en/download/) (Works with Node LTS version v16.17.0)
+- [MongoDB](https://www.mongodb.com/home)
 
-## Learn More
+#### Commands
 
-To learn more about Next.js, take a look at the following resources:
+You can set this up locally with the following steps:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. copy the `.env.example` file to `.env` and update any details required
+1. MongoDB is required, it is possible to use `docker-compose up` to start the MongoDB service
+1. `npm ci`
+1. `npm run dev`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛡️ License
 
-## Deploy on Vercel
+Next-Blog-App is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧰 Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-=======
-# personal-website
->>>>>>> 7e6ba3ad4deeb0e2ab8c2963a0e8044a1c182deb
+- Contributions make the open source community an amazing place to learn, inspire, and create.
+- Any contributions you make are **truly appreciated**.
+- Let's continue contributing to keep the community active and growing.
+
+## 🙏 Support
+
+Don't forget to leave a star ⭐️
