@@ -1,5 +1,5 @@
-import connectDB from "../../../middlewares/mongoose"
-import UserContact from '../../../models/UserContact'
+import connectDB from "../../../../middlewares/mongoose"
+import UserContact from '../../../../models/UserContact'
 
 const handler = async (req, res) => {
     if (req.method === 'DELETE') {
