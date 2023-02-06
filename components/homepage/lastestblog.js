@@ -199,3 +199,5 @@
   </div>
 </div>
 </section>
+
+export default lastestblog
