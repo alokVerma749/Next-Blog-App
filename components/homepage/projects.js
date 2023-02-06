@@ -67,3 +67,5 @@
   </div>
 </div>
 </section>
+
+export default projects
