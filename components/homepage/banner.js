@@ -1,4 +1,11 @@
 {/* Banner */}
+
+import React from 'react'
+import Image from 'next/Image'
+
+const banner = () => {
+  return (
+
 <div className="p-6 py-12 bg-[#004aad] dark:bg-indigo-400 dark:text-gray-900">
 <div className="container mx-auto text-white">
   <div className="flex flex-col lg:flex-row items-center justify-between">
@@ -13,5 +20,6 @@
   </div>
 </div>
 </div>
-
+  )
+}
 export default banner

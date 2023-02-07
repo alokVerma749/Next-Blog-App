@@ -1,4 +1,12 @@
 {/* Projects */}
+
+import React from 'react'
+import Image from 'next/Image'
+import Link from 'next/link'
+
+const projects = () => {
+  return (
+
 <section>
 <div className="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
   <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
@@ -67,5 +75,7 @@
   </div>
 </div>
 </section>
+  )
+}
 
 export default projects
