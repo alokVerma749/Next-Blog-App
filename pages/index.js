@@ -1,10 +1,9 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Banner from '../components/homepage/Banner'
+
 import Hero from '../components/homepage/Hero'
 import LatestBlog from '../components/homepage/LatestBlog'
+import Banner from '../components/homepage/Banner'
 import Projects from '../components/homepage/Projects'
-
 
 export default function Home() {
   return (
@@ -15,7 +14,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      </>
 
-      )
-    }
+      <Hero />
+      <LatestBlog />
+      <Banner />
+      <Projects />
+    </>
+  )
+}
