@@ -4,32 +4,27 @@ import React from 'react'
 
 
 
-const latestblog = () => {
+const LatestBlog= () => {
   return (
-<section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
-<div className="container p-6 mx-auto space-y-8">
-  <div className="space-y-2 text-center">
-    <h2 className="text-3xl font-bold">Latest Blogs</h2>
-    <p className="font-serif text-sm dark:text-gray-400">Have a look on my latest published blogs.</p>
-  </div>
-  <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
-    <article className="flex flex-col dark:bg-gray-900">
-      <a
-        href="#"
-        className="relative block overflow-hidden rounded-lg border border-gray-100 p-8"
-      >
-        <span
-          className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600"
-        ></span>
-
+    <section className="py-6 sm:py-12 dark:bg-gray-800 dark:text-gray-100">
+      <div className="container p-6 mx-auto space-y-8">
+        <div className="space-y-2 text-center">
+          <h2 className="text-3xl font-bold">Latest Blogs</h2>
+          <p className="font-serif text-sm dark:text-gray-400">Have a look on my latest published blogs.</p>
+        </div>
+        <div className="grid grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-4">
+        <article className="flex flex-col dark:bg-gray-900">
+      <a href="#"
+        className="relative block overflow-hidden rounded-lg border border-gray-100 p-8">
+        <span className="absolute inset-x-0 bottom-0 h-2 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600">         
+        </span>
         <div className="justify-between sm:flex">
-          <div>
-            <h3 className="text-xl font-bold text-gray-900">
-              Building a SaaS product as a software developer
-            </h3>
-
-            <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
-          </div>
+        <div>
+        <h3 className="text-xl font-bold text-gray-900">
+        Building a SaaS product as a software developer
+        </h3>
+        <p className="mt-1 text-xs font-medium text-gray-600">By John Doe</p>
+      </div>
 
           <div className="ml-3 hidden flex-shrink-0 sm:block">
             <img
@@ -209,4 +204,4 @@ const latestblog = () => {
   )
 }
 
-export default latestblog
+export default LatestBlog
