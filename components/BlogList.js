@@ -21,7 +21,7 @@ const BlogList = ({ blogs }) => {
                                     <div className="p-6 space-y-2">
                                         <h3 className="text-2xl font-semibold group-hover:underline group-focus:underline">{blog.title}</h3>
                                         <span className="text-xs text-gray-600">January 23, 2021</span>
-                                        <p>{blog.content}</p>
+                                        <p>{blog.content.substring(0,200)}</p>
                                     </div>
                                 </Link>
                             )
